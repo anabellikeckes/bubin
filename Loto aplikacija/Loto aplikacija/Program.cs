@@ -16,7 +16,7 @@ namespace Loto_aplikacija
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLoto());
+            Application.Run(new Form2());
         }
     }
 }

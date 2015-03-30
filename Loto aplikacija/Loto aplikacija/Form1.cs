@@ -35,8 +35,11 @@ namespace Loto_aplikacija
             {
                 btnOdigraj.Enabled = true;
             }
-            else btnOdigraj.Enabled = false;
-            MessageBox.Show("nije ok unos.");
+            else
+            {
+                btnOdigraj.Enabled = false;
+                MessageBox.Show("nije ok unos.");
+            }
         }
 
         private void btnOdigraj_Click(object sender, EventArgs e)
